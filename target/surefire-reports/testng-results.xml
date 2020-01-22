@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="15" passed="15" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-01-21T10:01:43 TST" name="Suite" finished-at="2020-01-21T10:02:41 TST" duration-ms="58844">
+    <groups>
+    </groups>
+    <test started-at="2020-01-21T10:01:43 TST" name="Test" finished-at="2020-01-21T10:02:41 TST" duration-ms="58844">
+      <class name="demoJenkins.LoginValidation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:demoJenkins.LoginValidation@61ca2dfa]" started-at="2020-01-21T10:01:43 TST" name="setup" finished-at="2020-01-21T10:01:53 TST" duration-ms="10202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test9(java.lang.String, java.lang.String)[pri:1, instance:demoJenkins.LoginValidation@61ca2dfa]" started-at="2020-01-21T10:02:16 TST" name="test9" description="Test Case 9-正常案例-登入成功" finished-at="2020-01-21T10:02:18 TST" duration-ms="1546" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testtest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Do!ng123]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test9 -->
+        <test-method signature="test10()[pri:2, instance:demoJenkins.LoginValidation@61ca2dfa]" started-at="2020-01-21T10:02:18 TST" name="test10" description="Test Case 10-異常案例-登入失敗(帳號驗證)" finished-at="2020-01-21T10:02:19 TST" duration-ms="903" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test10 -->
+        <test-method signature="test11()[pri:3, instance:demoJenkins.LoginValidation@61ca2dfa]" started-at="2020-01-21T10:02:19 TST" name="test11" description="Test Case 11-異常案例-登入失敗(密碼驗證)" finished-at="2020-01-21T10:02:20 TST" duration-ms="1416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test11 -->
+        <test-method signature="test12()[pri:4, instance:demoJenkins.LoginValidation@61ca2dfa]" started-at="2020-01-21T10:02:20 TST" name="test12" description="Test Case 12-異常案例-登入失敗(必填欄位驗證)" finished-at="2020-01-21T10:02:20 TST" duration-ms="300" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test12 -->
+        <test-method signature="test13()[pri:5, instance:demoJenkins.LoginValidation@61ca2dfa]" started-at="2020-01-21T10:02:20 TST" name="test13" description="Test Case 13-正常案例-登出成功" finished-at="2020-01-21T10:02:21 TST" duration-ms="1024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test13 -->
+        <test-method signature="test14()[pri:6, instance:demoJenkins.LoginValidation@61ca2dfa]" started-at="2020-01-21T10:02:21 TST" name="test14" description="Test Case 14-executeAsyncScript()" finished-at="2020-01-21T10:02:37 TST" duration-ms="16143" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test14 -->
+        <test-method signature="test15()[pri:7, instance:demoJenkins.LoginValidation@61ca2dfa]" started-at="2020-01-21T10:02:37 TST" name="test15" description="Test Case 15-find element" finished-at="2020-01-21T10:02:41 TST" duration-ms="3259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test15 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:demoJenkins.LoginValidation@61ca2dfa]" started-at="2020-01-21T10:02:41 TST" name="teardown" finished-at="2020-01-21T10:02:41 TST" duration-ms="669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demoJenkins.LoginValidation -->
+      <class name="demoJenkins.RegisterValidation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:demoJenkins.RegisterValidation@4b53f538]" started-at="2020-01-21T10:01:53 TST" name="setup" finished-at="2020-01-21T10:02:02 TST" duration-ms="9747" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test1()[pri:1, instance:demoJenkins.RegisterValidation@4b53f538]" started-at="2020-01-21T10:02:03 TST" name="test1" description="Test Case 1-註冊新使用者成功" finished-at="2020-01-21T10:02:06 TST" duration-ms="3259" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method signature="test2()[pri:2, instance:demoJenkins.RegisterValidation@4b53f538]" started-at="2020-01-21T10:02:06 TST" name="test2" description="Test Case 2-異常案例-註冊新使用者(必填欄位驗證) 當所有欄位為空白時的狀況" finished-at="2020-01-21T10:02:06 TST" duration-ms="508" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method signature="test3()[pri:3, instance:demoJenkins.RegisterValidation@4b53f538]" started-at="2020-01-21T10:02:06 TST" name="test3" description="Test Case 3-異常案例-註冊新使用者(密碼強度驗證)" finished-at="2020-01-21T10:02:08 TST" duration-ms="2065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+        <test-method signature="test4()[pri:4, instance:demoJenkins.RegisterValidation@4b53f538]" started-at="2020-01-21T10:02:08 TST" name="test4" description="Test Case-4  異常案例-註冊新使用者(再次輸入密碼錯誤)" finished-at="2020-01-21T10:02:11 TST" duration-ms="2196" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test4 -->
+        <test-method signature="test5()[pri:5, instance:demoJenkins.RegisterValidation@4b53f538]" started-at="2020-01-21T10:02:11 TST" name="test5" description="Test Case 5-異常案例-註冊新使用者(帳號格式驗證)" finished-at="2020-01-21T10:02:11 TST" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test5 -->
+        <test-method signature="test6()[pri:6, instance:demoJenkins.RegisterValidation@4b53f538]" started-at="2020-01-21T10:02:11 TST" name="test6" description="Test Case 6-異常案例-註冊新使用者(姓名格式驗證)不可超過10個中文字" finished-at="2020-01-21T10:02:13 TST" duration-ms="1503" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test6 -->
+        <test-method signature="test7()[pri:7, instance:demoJenkins.RegisterValidation@4b53f538]" started-at="2020-01-21T10:02:13 TST" name="test7" description="Test Case 7-異常案例-註冊新使用者(帳號重複驗證)" finished-at="2020-01-21T10:02:13 TST" duration-ms="863" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test7 -->
+        <test-method signature="test8()[pri:8, instance:demoJenkins.RegisterValidation@4b53f538]" started-at="2020-01-21T10:02:13 TST" name="test8" description="Test Case 8-正常案例-註冊新使用者(資料重置功能驗證)" finished-at="2020-01-21T10:02:15 TST" duration-ms="2059" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test8 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:demoJenkins.RegisterValidation@4b53f538]" started-at="2020-01-21T10:02:15 TST" name="teardown" finished-at="2020-01-21T10:02:16 TST" duration-ms="616" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demoJenkins.RegisterValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

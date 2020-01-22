@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT"
+	verbose="0">
+	<test thread-count="5" name="Test(failed)" verbose="0">
+		<classes>
+			<class name="demoJenkins.LoginValidation">
+				<methods>
+					<include name="test13" />
+					<include name="test9" />
+					<include name="test12" />
+					<include name="test11" />
+					<include name="test10" />
+					<include name="test14" />
+					<include name="setup" />
+					<include name="teardown" />
+				</methods>
+			</class> <!-- demoJenkins.LoginValidation -->
+			<class name="demoJenkins.RegisterValidation">
+				<methods>
+					<include name="setup" />
+					<include name="teardown" />
+					<include name="test2" />
+					<include name="test1" />
+					<include name="test6" />
+					<include name="test5" />
+					<include name="test4" />
+					<include name="test3" />
+					<include name="test8" />
+					<include name="test7" />
+				</methods>
+			</class> <!-- demoJenkins.RegisterValidation -->
+		</classes>
+	</test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

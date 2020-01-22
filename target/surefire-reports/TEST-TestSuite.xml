@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TestSuite" time="37.544" tests="15" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="13.0.1+0"/>
+    <property name="sun.boot.library.path" value="C:\_JSP012\jdk13\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\_JSP012\eclipse-workspace\AutomationTest"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="TW"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\_JSP012\eclipse-workspace\AutomationTest"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="13.0.1+0"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\user\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\_JSP012\eclipse-workspace\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf15178160775857061942.tmp"/>
+    <property name="sun.jnu.encoding" value="MS950"/>
+    <property name="java.library.path" value="C:\_JSP012\jdk13\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\_JSP012\jdk13\bin;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\iCLS\;C:\Program Files\Intel\Intel(R) Management Engine Components\iCLS\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\_JSP012\maven3\bin;C:\_JSP012\jdk13\bin;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\130\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\Tools\Binn\;C:\Program Files\Microsoft SQL Server\140\DTS\Binn\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\nodejs\;C:\Users\user\AppData\Local\Programs\Python\Python37-32\Scripts\;C:\Users\user\AppData\Local\Programs\Python\Python37-32\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\user\AppData\Roaming\npm;."/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="57.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\user"/>
+    <property name="user.timezone" value="Asia/Taipei"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="13"/>
+    <property name="user.name" value="user"/>
+    <property name="java.class.path" value="C:\_JSP012\eclipse201909\plugins\org.eclipse.m2e.maven.runtime_1.13.0.20190716-1623\jars\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="13"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B -s C:\_JSP012\.m2\settings.xml test"/>
+    <property name="java.home" value="C:\_JSP012\jdk13"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="13.0.1"/>
+    <property name="java.vendor" value="N/A"/>
+    <property name="maven.home" value="C:\_JSP012\eclipse-workspace\AutomationTest\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2019-10-15"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="19.9"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="test1" classname="demoJenkins.RegisterValidation" time="3.271"/>
+  <testcase name="test2" classname="demoJenkins.RegisterValidation" time="0.508"/>
+  <testcase name="test3" classname="demoJenkins.RegisterValidation" time="2.069"/>
+  <testcase name="test4" classname="demoJenkins.RegisterValidation" time="2.196"/>
+  <testcase name="test5" classname="demoJenkins.RegisterValidation" time="0.484"/>
+  <testcase name="test6" classname="demoJenkins.RegisterValidation" time="1.503"/>
+  <testcase name="test7" classname="demoJenkins.RegisterValidation" time="0.863"/>
+  <testcase name="test8" classname="demoJenkins.RegisterValidation" time="2.059"/>
+  <testcase name="test9" classname="demoJenkins.LoginValidation" time="1.546"/>
+  <testcase name="test10" classname="demoJenkins.LoginValidation" time="0.903"/>
+  <testcase name="test11" classname="demoJenkins.LoginValidation" time="1.412"/>
+  <testcase name="test12" classname="demoJenkins.LoginValidation" time="0.3"/>
+  <testcase name="test13" classname="demoJenkins.LoginValidation" time="1.024"/>
+  <testcase name="test14" classname="demoJenkins.LoginValidation" time="16.147"/>
+  <testcase name="test15" classname="demoJenkins.LoginValidation" time="3.259"/>
+</testsuite>
