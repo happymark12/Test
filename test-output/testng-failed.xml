@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="demoJenkins.ReadWriteExcel">
+      <class name="demoJenkins.LoginValidation">
         <methods>
-          <include name="ReadData"/>
-          <include name="TestSetup"/>
+          <include name="test9"/>
+          <include name="setup"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- demoJenkins.ReadWriteExcel -->
+      </class> <!-- demoJenkins.LoginValidation -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="6" total="7" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-01-21T16:14:34 TST" name="Default suite" finished-at="2020-01-21T16:14:46 TST" duration-ms="12257">
+  <suite started-at="2020-01-22T13:54:35 TST" name="Suite" finished-at="2020-01-22T13:54:46 TST" duration-ms="11474">
     <groups>
     </groups>
-    <test started-at="2020-01-21T16:14:34 TST" name="Default test" finished-at="2020-01-21T16:14:46 TST" duration-ms="12257">
-      <class name="demoJenkins.ReadWriteExcel">
-        <test-method is-config="true" signature="TestSetup()[pri:0, instance:demoJenkins.ReadWriteExcel@3d121db3]" started-at="2020-01-21T16:14:34 TST" name="TestSetup" finished-at="2020-01-21T16:14:45 TST" duration-ms="11273" status="PASS">
+    <test started-at="2020-01-22T13:54:35 TST" name="Test" finished-at="2020-01-22T13:54:46 TST" duration-ms="11474">
+      <class name="demoJenkins.LoginValidation">
+        <test-method is-config="true" signature="setup()[pri:0, instance:demoJenkins.LoginValidation@11a9e7c8]" started-at="2020-01-22T13:54:35 TST" name="setup" finished-at="2020-01-22T13:54:45 TST" duration-ms="10087" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TestSetup -->
-        <test-method signature="ReadData()[pri:0, instance:demoJenkins.ReadWriteExcel@3d121db3]" started-at="2020-01-21T16:14:45 TST" name="ReadData" finished-at="2020-01-21T16:14:46 TST" duration-ms="940" status="PASS">
+        </test-method> <!-- setup -->
+        <test-method signature="test9(java.lang.String, java.lang.String)[pri:1, instance:demoJenkins.LoginValidation@11a9e7c8]" started-at="2020-01-22T13:54:45 TST" name="test9" description="Test Case 9-正常案例-登入成功" finished-at="2020-01-22T13:54:46 TST" duration-ms="750" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testtest]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Do!ng123]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- ReadData -->
-      </class> <!-- demoJenkins.ReadWriteExcel -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- test9 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:demoJenkins.LoginValidation@11a9e7c8]" started-at="2020-01-22T13:54:46 TST" name="teardown" finished-at="2020-01-22T13:54:46 TST" duration-ms="613" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- demoJenkins.LoginValidation -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
