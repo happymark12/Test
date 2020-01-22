@@ -13,4 +13,8 @@ node {
     stage('Test') {
          bat script: "${mvnHome}/bin/mvn test"
     }
+    
+    stage('Generate report'){
+      step([$class: 'Publisher', reportFilenamePattern: '**/testng-results.xml'])
+    }
 }
