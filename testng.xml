@@ -11,6 +11,7 @@
 			<class name="demoJenkins.LoginValidation">
 				<methods>
 					<include name="test10" />
+<!-- 					<include name="test9" /> -->
 				</methods>
 
 			</class>
