@@ -17,7 +17,6 @@
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.0.0</version>
-			<!-- <scope>test</scope> -->
 		</dependency>
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
@@ -39,11 +38,11 @@
 			<artifactId>poi-ooxml-schemas</artifactId>
 			<version>${poi.version}</version>
 		</dependency>
-	<dependency>
-    <groupId>dom4j</groupId>
-    <artifactId>dom4j</artifactId>
-    <version>1.6.1</version>
-</dependency>
+<!-- 		<dependency> -->
+<!-- 	<groupId>dom4j</groupId> -->
+<!-- 	<artifactId>dom4j</artifactId> -->
+<!-- 	<version>1.6.1</version> -->
+<!-- </dependency> -->
 	</dependencies>
 
 
